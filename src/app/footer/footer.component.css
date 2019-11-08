@@ -1,0 +1,9 @@
+footer{
+    background-color: gray;
+    padding-bottom: 0px;
+}
+.bg-dark{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
