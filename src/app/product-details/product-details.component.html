@@ -1,0 +1,13 @@
+
+<div class="card" style="width: 18rem;" *ngIf="product">
+        <a  routerLink="/productdetails">
+            <img [src]="product.image" class="card-img-top" alt="..." style="height: 300px;">
+        </a>
+        <div class="card-body">
+
+        <a routerLink="/productdetails"><h5 class="card-title">{{product.name|uppercase}}</h5></a>
+          <p class="card-text">{{product.description}}</p>
+          <p class="price">{{product.price}}</p>
+          <button class="btn btn-warning" [disabled]="!product.is_available">Add to Cart</button>
+        </div>
+</div>

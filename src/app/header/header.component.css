@@ -1,7 +1,10 @@
 .navbar-brand{
-    padding: 20px;
     font-size: 28px;
 }
 .nav-link{
     font-size: 24px;
+}
+.nav-item{
+    margin-left: 20px;
+    margin-top: 50px;
 }

@@ -1,7 +1,8 @@
 export interface Product {
+    id: number;
     name: string;
     description: string;
-    imagealt: string;
+    image: string;
     price: number;
-    availability: boolean;
+    is_available: boolean;
 }

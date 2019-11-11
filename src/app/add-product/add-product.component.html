@@ -1,0 +1,28 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+    <div class="form-group">
+        <label >Id</label>
+        <input type="text" class="form-control" formControlName="id">
+    </div>
+    <div class="form-group">
+      <label >Name</label>
+      <input type="text" class="form-control" placeholder="Enter name" formControlName="name">
+    </div>
+    <div class="form-group">
+        <label >Description</label>
+        <input type="text" class="form-control" formControlName="description">
+    </div>
+    <div class="form-group">
+        <label >Price</label>
+        <input type="text" class="form-control" formControlName="price">
+    </div>
+    <div class="form-group">
+        <label>Image</label>
+        <input type="text" class="form-control" formControlName="image">
+    </div>
+    <div class="form-group">
+        <label >Is_available</label>
+        <input type="text" class="form-control" formControlName="is_available">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
